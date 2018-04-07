@@ -1,0 +1,11 @@
+bouton_a_cacher.onclick = function() {
+	document.getElementById("bouton_a_cacher").style.visibility = "hidden";
+	document.getElementById("a_cacher").style.visibility = "visible";
+}
+
+
+function getURL () {
+let saisie = document.querySelector('#searchtext').value;
+let url = "https://www.google.fr/#q=" + saisie;
+open(url);}
+_
